@@ -1,0 +1,11 @@
+.list{
+    display: flex;
+    gap: 2em;
+}
+.list a{
+    transition: 0.3s;
+}
+.list a:hover{
+    color: var(--accent);
+
+}
