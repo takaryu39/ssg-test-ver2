@@ -5,9 +5,10 @@ import{faHouseChimney}  from "@fortawesome/free-solid-svg-icons"
 import {faSun} from "@fortawesome/free-regular-svg-icons"
 import { faTwitter, faFacebookF } from "@fortawesome/free-brands-svg-icons"
 import '@fortawesome/fontawesome-svg-core/styles.css'
-console.log(library)
+
 library.autoAddCss = false
 library.add(faTwitter,faFacebookF,faSun,faHouseChimney)
+
 function MyApp({ Component, pageProps }) {
 	return (
 		<Layout>
