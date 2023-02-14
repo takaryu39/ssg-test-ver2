@@ -9,7 +9,7 @@ export default function Posts(props) {
         <div className={styles.gridContainer}>
 
             {props.posts.map(({ title, slug, eyecatch }) => (
-                <article className={styles.post}>
+                <article key={slug} className={styles.post}>
                     <Link
                         href={`/blog/${slug}`}
                     >
